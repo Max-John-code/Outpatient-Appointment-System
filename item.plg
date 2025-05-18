@@ -1,0 +1,111 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: item - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\34189\AppData\Local\Temp\RSPEFFC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /FR"Debug/" /Fp"Debug/item.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Studying_materials\C++\MyProjects\finally\item\CStaffGetNumWin.cpp"
+]
+Creating command line "cl.exe @C:\Users\34189\AppData\Local\Temp\RSPEFFC.tmp" 
+Creating temporary file "C:\Users\34189\AppData\Local\Temp\RSPEFFD.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/item.pdb" /debug /machine:I386 /out:"Debug/item.exe" /pdbtype:sept 
+".\Debug\Appointment.obj"
+".\Debug\CAddDoctorWin.obj"
+".\Debug\CAdminManageDoctorWin.obj"
+".\Debug\CAdminSearchDoctorWin.obj"
+".\Debug\CAdminSearchRoomWin.obj"
+".\Debug\CAdminSearchStaffWin.obj"
+".\Debug\CAdminWin.obj"
+".\Debug\CButton.obj"
+".\Debug\CData.obj"
+".\Debug\CDiagnose.obj"
+".\Debug\CDoctor.obj"
+".\Debug\CDoctorAmendPwdWin.obj"
+".\Debug\CDoctorSearchStaffWin.obj"
+".\Debug\CDoctorWin.obj"
+".\Debug\CDoctorWriteWin.obj"
+".\Debug\CEditbox.obj"
+".\Debug\CKRoom.obj"
+".\Debug\CLabel.obj"
+".\Debug\CLoginWin.obj"
+".\Debug\CManagerWin.obj"
+".\Debug\CPullDown.obj"
+".\Debug\CSignupWin.obj"
+".\Debug\CStaff.obj"
+".\Debug\CStaffAmendInfoWin.obj"
+".\Debug\CStaffAmendPwdWin.obj"
+".\Debug\CStaffAppointmentManagerWin.obj"
+".\Debug\CStaffGetNumWin.obj"
+".\Debug\CStaffOutpatientWin.obj"
+".\Debug\CStaffPersonalCenterWin.obj"
+".\Debug\CStaffSearchDiagnoseWin.obj"
+".\Debug\CStaffWin.obj"
+".\Debug\CTable.obj"
+".\Debug\CTools.obj"
+".\Debug\CtrlBase.obj"
+".\Debug\CWindow.obj"
+".\Debug\main.obj"
+".\Debug\mainWin.obj"
+]
+Creating command line "link.exe @C:\Users\34189\AppData\Local\Temp\RSPEFFD.tmp"
+<h3>Output Window</h3>
+Compiling...
+CStaffGetNumWin.cpp
+Linking...
+Creating temporary file "C:\Users\34189\AppData\Local\Temp\RSPF27F.tmp" with contents
+[
+/nologo /o"Debug/item.bsc" 
+".\Debug\Appointment.sbr"
+".\Debug\CAddDoctorWin.sbr"
+".\Debug\CAdminManageDoctorWin.sbr"
+".\Debug\CAdminSearchDoctorWin.sbr"
+".\Debug\CAdminSearchRoomWin.sbr"
+".\Debug\CAdminSearchStaffWin.sbr"
+".\Debug\CAdminWin.sbr"
+".\Debug\CButton.sbr"
+".\Debug\CData.sbr"
+".\Debug\CDiagnose.sbr"
+".\Debug\CDoctor.sbr"
+".\Debug\CDoctorAmendPwdWin.sbr"
+".\Debug\CDoctorSearchStaffWin.sbr"
+".\Debug\CDoctorWin.sbr"
+".\Debug\CDoctorWriteWin.sbr"
+".\Debug\CEditbox.sbr"
+".\Debug\CKRoom.sbr"
+".\Debug\CLabel.sbr"
+".\Debug\CLoginWin.sbr"
+".\Debug\CManagerWin.sbr"
+".\Debug\CPullDown.sbr"
+".\Debug\CSignupWin.sbr"
+".\Debug\CStaff.sbr"
+".\Debug\CStaffAmendInfoWin.sbr"
+".\Debug\CStaffAmendPwdWin.sbr"
+".\Debug\CStaffAppointmentManagerWin.sbr"
+".\Debug\CStaffGetNumWin.sbr"
+".\Debug\CStaffOutpatientWin.sbr"
+".\Debug\CStaffPersonalCenterWin.sbr"
+".\Debug\CStaffSearchDiagnoseWin.sbr"
+".\Debug\CStaffWin.sbr"
+".\Debug\CTable.sbr"
+".\Debug\CTools.sbr"
+".\Debug\CtrlBase.sbr"
+".\Debug\CWindow.sbr"
+".\Debug\main.sbr"
+".\Debug\mainWin.sbr"]
+Creating command line "bscmake.exe @C:\Users\34189\AppData\Local\Temp\RSPF27F.tmp"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+item.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
